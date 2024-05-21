@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" type="text/css" href="Css/style.css">
+	<script src="https://kit.fontawesome.com/6d6f6453f3.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+	<title>DriveDreams</title>
+</head>
+<body>
+	<header>
+		
+		<!--Nav container-->
+		<nav class=" nav container">
+			<!--Menu icon-->
+			<i class="fa-solid fa-bars" id="menu-icon" onclick="toggleMenu()"></i>
+			<!--logo-->
+				<a href="#" class="icon">Drive<span>Dreams</span></a>
+			<!-- nav list-->
+			<ul class="navbar" id="menuList">
+				<li><a href="#home" class="active">Home</a></li>
+				<li><a href="#cars">Our Products</a></li>
+				<li><a href="#reviews">Our Clients</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+			<!--search Icon-->
+			<i class='bx bx-search' id="search-icons"></i>
+			<!--search box-->
+			<div class="search-box container">
+				<input type="search" name="" placeholder="Searh here...">
+			</div>
+		
+		</nav>
+	</header>
+	<!--Home-->
+	<main class="home" id="home">
+		<div class="home-text">
+			<h1>We have Everythin <br>Your <span>Car</span> Need</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+			<!--Home Button-->
+			<a href="#" class="btn">Discover Now</a>
+		</div>
+	</main>
+	<section class="cars" id="cars">
+		<!-- Cars seccion-->
+	
+		<div class="heading">
+			<span>All Cars</span>
+			<h2>We have all types cars</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur </p>
+		</div>
+		<!-- Cars conteiner-->
+		<div class="cars-conteiner container">
+			<!--Box 1-->
+			<div class="box">
+				<img src="Img/mercedes-Benz(AMG-GTR)/1.jpg">
+				<h2>Mercedes Benz AMG GTR</h2>
+			</div>
+			<!--Box 2-->
+			<div class="box">
+				<img src="Img/BMW-M240i/1.jpg">
+				<h2>BMW M240i</h2>
+			</div>
+			<!--Box 3-->
+			<div class="box">
+				<img src="Img/Mustang-66/1.jpg">
+				<h2>Mustang 66</h2>
+			</div>
+			<!--Box 4-->
+			<div class="box">
+				<img src="Img/MINi-Cooper/1.jpg">
+				<h2>Mini Cooper </h2>
+			</div>
+			<!--Box 5-->
+			<div class="box">
+				<img src="Img/Ferrari/1.jpg">
+				<h2>Ferrari F12</h2>
+			</div>
+			<!--Box 6-->
+			<div class="box">
+				<img src="Img/M2-2017/1.jpg">
+				<h2>M2 2017</h2>
+			</div>
+		</div>
+	</section>
+
+   <!--About us-->
+	<section class="about container" id="about">
+		<div class="about-img">
+		<img src="Img/1-Photoroom.png-Photoroom.png" class="imagen img">
+	   </div>
+		<div class="about-text">
+			<span>About Us</span>
+			<h2>Cheap Prices With<br>Quality Cars</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore. </p>
+			<!--About Button-->
+			<a href="#"class="btn">Learn More</a>
+		</div>
+		
+	</section>
+<!--featurnd section starts-->
+
+<section class="featurnd" id="featurnd">
+	<h2 class="heading"><span>Featurnd</span> cars</h2>
+
+	<div class="swiper featured-slider">
+
+		<div class="swiper-wrapper">
+			<!--box1-->
+			<div class="swiper-slide caja">
+				<img src="Img/Suzuki/susuki-adelante.jpg" class="autos">
+				<h3>Suzuki</h3>
+				<div class="estrella">
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star-half'></i>
+				</div>
+				<div class="price">$7.000</div>
+				<a href="#" class="boton">Check out</a>
+			</div>
+
+			<!--box2-->
+			<div class="swiper-slide caja">
+				<img src="Img/Land-rover/land-adelante.jpg" class="autos">
+				<h3>Land Rover</h3>
+				<div class="estrella">
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star-half'></i>
+				</div>
+				<div class="price">$6.000</div>
+				<a href="#" class="boton">Check out</a>
+			</div>
+
+
+			<!--box3-->
+			<div class="swiper-slide caja">
+				<img src="Img/Toyota/toyota-adelante.jpg" class="autos">
+				<h3>Toyota</h3>
+				<div class="estrella">
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star-half'></i>
+				</div>
+				<div class="price">$12.000</div>
+				<a href="#" class="boton">Check out</a>
+			</div>
+
+
+			<!--box4-->
+			<div class="swiper-slide caja">
+				<img src="Img/Audi/Audi-adelante.jpg" class="autos">
+				<h3>Audi</h3>
+				<div class="estrella">
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star-half'></i>
+				</div>
+				<div class="price">$15.000</div>
+				<a href="#" class="boton">Check out</a>
+			</div>
+
+
+			<!--box5-->
+			<div class="swiper-slide caja">
+				<img src="Img/Ford/ford-adelante.jpg" class="autos">
+				<h3>Ford</h3>
+				<div class="estrella">
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star-half'></i>
+				</div>
+				<div class="price">$11.000</div>
+				<a href="#" class="boton">Check out</a>
+			</div>
+
+
+			<!--box6-->
+			<div class="swiper-slide caja">
+				<img src="Img/venucia-V-online/venucia-adelante.jpg" class="autos">
+				<h3>Venucia</h3>
+				<div class="estrella">
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+				</div>
+				<div class="price">$10.000</div>
+				<a href="#" class="boton">Check out</a>
+			</div>
+         </div>
+		
+        <!--Buttons swipper-->
+		<div class="swiper-button-prev" id="swiper-button"></div>
+        <div class="swiper-button-next" id="swiper-button"></div>
+
+	</div>
+</section>
+
+<!--newsletter section-->
+<section id="reviews">
+	<div class="testimonials">
+		<div class="inner">
+			<h2 class="heading">Client`s <span>review</span></h2>
+
+			<div class="rows">
+				<div class="col colums">
+					<div class="testimonial">
+						<img src="Img/perfiles/perfil2.jpg" alt="">
+						<div class="name">Dina Gonzales</div>
+						<div class="stars">
+							<i class='bx bxs-star'></i>
+					        <i class='bx bxs-star'></i>
+					        <i class='bx bxs-star'></i>
+					        <i class='bx bxs-star'></i>
+					        <i class='bx bxs-star'></i>
+						</div>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						 Veritatis debitis tempore commodi sequi amet unde doloremque 
+						 eos dicta</p>
+					</div>
+				</div>
+
+				<div class="col colums">
+					<div class="testimonial">
+						<img src="Img/perfiles/perfil3.jpg" alt="">
+						<div class="name">Jose Luis</div>
+						<div class="stars">
+							<i class='bx bxs-star'></i>
+					        <i class='bx bxs-star'></i>
+					        <i class='bx bxs-star'></i>
+					        <i class='bx bxs-star'></i>
+					        <i class='bx bxs-star-half'></i>
+						</div>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						 Veritatis debitis tempore commodi sequi amet unde doloremque 
+						 eos dicta</p>
+					</div>
+				</div>
+
+				<div class="col colums">
+					<div class="testimonial">
+						<img src="Img/perfiles/perfil4.jpg" alt="">
+						<div class="name">Ariadna Gómez</div>
+						<div class="stars">
+							<i class='bx bxs-star'></i>
+					        <i class='bx bxs-star'></i>
+					        <i class='bx bxs-star'></i>
+					        <i class='bx bxs-star'></i>
+					        <i class='bx bxs-star-half'></i>
+						</div>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						 Veritatis debitis tempore commodi sequi amet unde doloremque 
+						 eos dicta</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--contact-->
+<section>
+	<footer class="footer" id="contact">
+		<div class="containers">
+			<div class="row">
+				<div class="footer-col">
+					<h4>Quick Links</h4>
+					<ul>
+						<li><a href="#">home</a></li>
+						<li><a href="#">vehicles</a></li>
+						<li><a href="#">services</a></li>
+						<li><a href="#">featurd</a></li>
+						<li><a href="#">reviews</a></li>
+						<li><a href="#">contact</a></li>
+					</ul>
+				</div>
+
+				<div class="footer-col">
+					<h4>Company</h4>
+					<ul>
+						<li><a href="#">about us</a></li>
+						<li><a href="#">our services</li>
+						<li><a href="#">privacy policy</a></li>
+						<li><a href="#">affiliate program</a></li>
+					</ul>
+				</div>
+
+				<div class="footer-col">
+					<h4>Get Help</h4>
+					<ul>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">shipping</a></li>
+						<li><a href="#">returns</a></li>
+						<li><a href="#">order status</a></li>
+						<li><a href="#">payment options</a></li>
+					</ul>
+				</div>
+
+				<div class="footer-col">
+					<h4>Follow us</h4>
+					<div class="social-links">
+						<a href="#"><i class="fa-brands fa-instagram"></i></a>
+						<a href="#"><i class="fa-brands fa-facebook"></i></a>
+						<a href="#"><i class="fa-brands fa-twitter"></i></a>
+						<a href="#"><i class="fa-brands fa-linkedin"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</section>
+	
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script src="JS/main.js"></script>
+</body>
+</html>
+
+	
